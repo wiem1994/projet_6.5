@@ -1,0 +1,7 @@
+<h1>We are using the HttpCLient</h1>
+<button (click)="getPosts()">Show posts</button>
+<div *ngFor="let post of posts" >
+  <p>{{post.id}}</p>
+  <p>{{post.titre}}</p>
+  <p>{{post.contenu}}</p>
+</div>
